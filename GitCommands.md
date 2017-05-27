@@ -5,3 +5,6 @@ Downloads a copy of the repository to your computer
 
 - `git add [file]`
 Adds files to staging
+
+- `git log`
+Shows commit history (what changed)
