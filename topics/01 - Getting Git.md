@@ -2,7 +2,7 @@
 
 ## Install Git on Windows
 
-# Install Git on Linux
+## Install Git on Linux
 
 ## Didn't quite Git it?
 
