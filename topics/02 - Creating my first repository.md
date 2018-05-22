@@ -1,4 +1,6 @@
-## Creating your first repository
+## Creating a repository
+
+* what is a repository?
 
 * Create my-first-repo
 
