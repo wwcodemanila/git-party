@@ -1,6 +1,6 @@
 # Welcome to the party!
 
-If you haven't tried using Git before, or have no idea what in the world Git is, this guide is perfect for you. Are you ready? Let's go!
+If you haven't tried using Git before, or have no idea about Git at all, this guide is perfect for you. Are you ready? Let's go!
 
 # What is Git?
 
