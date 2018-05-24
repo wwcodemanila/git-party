@@ -37,33 +37,121 @@ To become an open source contributor using GitHub, the largest open source commu
 
 # Forking a repository
 
-* what is a fork?
+A **fork** is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 
-* fork `git-party`
+Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
 
-* clone forked repo
+## Propose changes to someone else's project
+
+A great example of using forks to propose changes is for bug fixes. Rather than logging an issue for a bug you've found, you can:
+
+* Fork the repository.
+* Make the fix.
+* Submit a pull request to the project owner.
+
+If the project owner likes your work, they might pull your fix into the original repository!
+
+# Forking `git-party`
+
+1. From this repository, `git-party`, navigate to the upper right corner of the page and click the `Fork` button.
+
+<img src="../assets/fork-button.png" alt="fork-button" style="height: 25px"/>
+
+2. Select where should the fork be located, which is in this case, your personal account.
+
+<img src="../assets/fork-location.png" alt="fork-location" style="height: 100px"/>
+
+That's it! Now, you have a remote copy of the original `git-party` repository.
+
+<img src="../assets/forked-repo.png" alt="forked-repo" style="height: 200px"/>
+
+Now clone the forked repo to create a local copy as well.
+
+```shell
+$ git clone https://github.com/<your-name>/git-party.git
+```
 
 # Creating a pull request
 
-* what are pull requests?
+**Pull requests** let you tell others about changes you've pushed to a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before the changes are merged into the repository.
 
 * add your name to 20180526 attendance
 
-* add, commit, and push to master
+1. Open your local copy of the repository and go `20180526.md` under the `attendance` folder.
 
-* new pull request
+2. Add your name (with a link to your GitHub account) together with a short but interesting fact about yourself.
 
-* merge pull request
+```shell
+* [Alysson Alvaran](https://github.com/alyssonalvaran) - I am mixed-handed or cross-dominant. I write with my left hand but I do everything else with my right! :)
+```
+
+3. Push your changes to your `master` branch.
+
+```shell
+$ git add attendance/20180526.md
+$ git commit -m "Add my name to 20180526 attendance"
+$ git push origin master
+```
+
+You have now pushed your changes to your fork!
+
+4. Navigate to the original `git-party` repository and click the `New pull request` button.
+
+<img src="../assets/pr-button.png" alt="pr-button" style="height: 25px"/>
+
+5. Since we're trying to create a PR from another fork, click the link to `compare across forks`.
+
+<img src="../assets/pr-create.png" alt="pr-create" style="height: 100px"/>
+
+6. Select the base fork as `wwcodemanila/git-party` and the its branch as `master`. Compare it against the head fork `<you-name>/git-party` with the same branch.
+
+<img src="../assets/pr.png" alt="pr" style="height: 100px"/>
+
+This would show the changes that you made to your fork compared to the original repository:
+
+<img src="../assets/pr-changes.png" alt="pr-changes" style="height: 150px"/>
+
+7. Submit your pull request!
+
+<img src="../assets/pr-created.png" alt="pr-created" style="height: 200px"/>
+
+# Merging a pull request
+
+To merge a pull request with no conflicts with the base branch, just click on the `Merge pull request` button and `Confirm merge`.
+
+<img src="../assets/pr-merge.png" alt="pr-merge" style="height: 100px"/>
+
+In case of conflicts, sync your fork first before resolving the conflicts and pushing your the resolution.
 
 # Syncing forks
 
-* why do we need to sync forks?
+You need to sync your forks first before pushing your changes and creating pull requests to ensure that you have the latest of the code and won't overwrite what others added.
 
-* `git remote add upstream <URL>`
+1. Add the remote `upstream` which references the URL of the original repo.
 
-* `git fetch upstream`
+```shell
+$ git remote add upstream https://github.com/wwcodemanila/git-party
+```
 
-* `git merge upstream/master`
+If you notice when you push your codes to your `master` branch, you also call on a remote named `origin`. To see the remotes that you have, use `git remote`. To see the URL that it references, use `git remote get-url <remote-name>`.
+
+2. Fetch the contents of your `upstream` remote.
+
+```shell
+$ git fetch upstream
+```
+
+3. Merge the `master` branch of `upstream` to your local fork.
+
+```shell
+$ git merge upstream/master
+```
+
+Awesome! Your local fork is now up-to-date. You can also merge your remote fork by simply pushing the changes to its `master` branch.
+
+```shell
+$ git push origin master
+```
 
 # Congratulations!
 
@@ -84,3 +172,6 @@ Feel free to ask and participate in our [Gitter chat room](https://gitter.im/WWC
 * http://www.businessinsider.com/why-developers-contribute-to-open-source-projects-2015-6
 * https://www.makeuseof.com/tag/people-contribute-open-source-projects/
 * https://insights.stackoverflow.com/survey/2015#profile-sideprojects
+* https://help.github.com/articles/fork-a-repo/
+* https://opensource.org/about
+* https://help.github.com/articles/about-pull-requests/
