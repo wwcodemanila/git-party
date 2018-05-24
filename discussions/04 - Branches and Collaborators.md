@@ -44,10 +44,11 @@ You should be able to see something like this:
 
 This indicates that you have 4 branches: `master`, `christine`, `issa` and `alysson`, on your remote named `origin`.
 
-3. Create your own local branch.
+3. Create your own local branch and push it to your remote repository.
 
 ```shell
 $ git checkout -b <your-name> master
+$ git push origin <your-name>
 ```
 
 This switches you to a new branch called `<your-name>` on your local copy which contains what's exactly in `master`. You can verify it by using `git branch` again.
@@ -82,15 +83,24 @@ $ git commit -m "Add what I learned today"
 7. Checkout the `master` branch and merge your changes from your `<your-name>` branch.
 
 ```shell
+$ git checkout master
 $ git merge <your-name>
 ```
 
 Unlike pulling, merging gets the changes from the local branch that you've specified. This is helpful when you're working on a different branches locally.
 
-8. Now that you've merged the changes to your `master` branch, try deleting `<your-name>`.
+8. Now that you've merged the changes to your `master` branch, try deleting `<your-name>` locally.
 
 ```shell
-$ 
+$ git branch -d <your-name>
+```
+
+Since you've pushed `<your-name>` to your remote repo earlier, if you try to get the list of all available branches via `git branches --all`, you'll see that `<your-name>` still exists remotely.
+
+9. Delete your branch remotely as well.
+
+```shell
+$ git push origin --delete <your-name>
 ```
 
 * Deleting branches
