@@ -103,7 +103,7 @@ Since you've pushed `<your-name>` to your remote repo earlier, if you try to get
 $ git push origin --delete <your-name>
 ```
 
-* Deleting branches
+10. Finally, create a pull request in the orginal `git-party` repository!
 
 # Congratulations!
 
