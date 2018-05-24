@@ -47,22 +47,16 @@ This indicates that you have 4 branches: `master`, `christine`, `issa` and `alys
 3. Create your own local branch.
 
 ```shell
-$ git checkout -b <your-name>
+$ git checkout -b <your-name> master
 ```
 
-This switches you to a new branch called `<your-name>` on your local copy. You can verify it by using `git branch` again.
+This switches you to a new branch called `<your-name>` on your local copy which contains what's exactly in `master`. You can verify it by using `git branch` again.
 
 To switch back and forth between local branches, use `git checkout <branch-name>`.
 
 To checkout a remote branch, fetch it first using `git fetch <branch-name>` before checking it out using `git checkout <branch-name>`.
 
-4. Open `20180526.md` under the `today-i-learned` folder. Add what you learned about Git today or what you liked the most about our Git party. Sign it off with your name and GitHub account!
-
-```shell
-* "A git pull a day keeps the conflicts away." - [Alysson Alvaran](https://github.com/alyssonalvaran)
-```
-
-5. Pull the changes from `alysson`.
+4. Pull the changes from `alysson`.
 
 ```shell
 $ git pull origin alysson
@@ -70,7 +64,13 @@ $ git pull origin alysson
 
 Pulling basically *gets* the changes made on a branch to the branch that you have checked out.
 
-* Pulling changes
+Pulling changes before editing and/or committing helps in avoiding conflicts, especially when people are working on the same parts of a single file.
+
+5. Open `20180526.md` under the `today-i-learned` folder. Add what you learned about Git today or what you liked the most about our Git party. Sign it off with your name and GitHub account!
+
+```shell
+* "A git pull a day keeps the conflicts away." - [Alysson Alvaran](https://github.com/alyssonalvaran)
+```
 
 * Merging branches
 
@@ -90,3 +90,4 @@ Feel free to ask and participate in our [Gitter chat room](https://gitter.im/WWC
 
 * https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
 * http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
+* https://www.atlassian.com/git/tutorials/using-branches/git-merge
