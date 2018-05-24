@@ -85,7 +85,13 @@ $ git commit -m "Add what I learned today"
 $ git merge <your-name>
 ```
 
-Merging branches
+Unlike pulling, merging gets the changes from the local branch that you've specified. This is helpful when you're working on a different branches locally.
+
+8. Now that you've merged the changes to your `master` branch, try deleting `<your-name>`.
+
+```shell
+$ 
+```
 
 * Deleting branches
 
