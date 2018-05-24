@@ -62,7 +62,7 @@ To checkout a remote branch, fetch it first using `git fetch <branch-name>` befo
 $ git pull origin alysson
 ```
 
-Pulling basically *gets* the changes made on a branch to the branch that you have checked out.
+Pulling basically *gets* and integrates the changes made on a remote branch to the local branch that you have checked out.
 
 Pulling changes before editing and/or committing helps in avoiding conflicts, especially when people are working on the same parts of a single file.
 
