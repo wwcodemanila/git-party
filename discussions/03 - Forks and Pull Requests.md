@@ -27,7 +27,7 @@ While some developers start contributing to gain programming experience or build
 
 **To pay it forward**. As the ones who benefited the most from open source software, developers contribute to open source projects as a way of giving back to the community. After all, programming, and technology in general, wouldn't have progressed as much without open source.
 
-**To have fun**. No matter how noble or inspirational their initial motivations are, they wouldn't have kept contributing if they aren't having fun. According to the [Stack Overflow's Developer Survey last 2015](https://insights.stackoverflow.com/survey/2015#profile-sideprojects), the average developer spends more than 7 hours per week working on side projects and open source software, outside of their normal working hours. To quote the results of the survey:
+**To have fun**. No matter how noble or inspirational their initial motivations are, they wouldn't have kept contributing if they aren't having fun. According to [Stack Overflow's Developer Survey last 2015](https://insights.stackoverflow.com/survey/2015#profile-sideprojects), the average developer spends more than 7 hours per week working on side projects and open source software, outside of their normal working hours. To quote the results of the survey:
 
 > For many developers, programming is a labor of love.
 
@@ -75,8 +75,6 @@ $ git clone https://github.com/<your-name>/git-party.git
 
 **Pull requests** let you tell others about changes you've pushed to a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before the changes are merged into the repository.
 
-* add your name to 20180526 attendance
-
 1. Open your local copy of the repository and go `20180526.md` under the `attendance` folder.
 
 2. Add your name (with a link to your GitHub account) together with a short but interesting fact about yourself.
@@ -103,7 +101,7 @@ You have now pushed your changes to your fork!
 
 <img src="../assets/pr-create.png" alt="pr-create" style="height: 100px"/>
 
-6. Select the base fork as `wwcodemanila/git-party` and the its branch as `master`. Compare it against the head fork `<you-name>/git-party` with the same branch.
+6. Select the base fork as `wwcodemanila/git-party` and the its branch as `master`. Compare it against the head fork `<your-name>/git-party` with the same branch.
 
 <img src="../assets/pr.png" alt="pr" style="height: 100px"/>
 
@@ -121,7 +119,7 @@ To merge a pull request with no conflicts with the base branch, just click on th
 
 <img src="../assets/pr-merge.png" alt="pr-merge" style="height: 100px"/>
 
-In case of conflicts, sync your fork first before resolving the conflicts and pushing your the resolution.
+In case of conflicts, sync your fork first before resolving the conflicts and pushing your resolution.
 
 # Syncing forks
 
@@ -133,7 +131,7 @@ You need to sync your forks first before pushing your changes and creating pull 
 $ git remote add upstream https://github.com/wwcodemanila/git-party
 ```
 
-If you notice when you push your codes to your `master` branch, you also call on a remote named `origin`. To see the remotes that you have, use `git remote`. To see the URL that it references, use `git remote get-url <remote-name>`.
+When pushing your codes to your `master` branch, you'll notice that you also call on a remote named `origin`. To see the remotes that you have, use `git remote`. To see the URL that it references, use `git remote get-url <remote-name>`.
 
 2. Fetch the contents of your `upstream` remote.
 
