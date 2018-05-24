@@ -72,6 +72,19 @@ Pulling changes before editing and/or committing helps in avoiding conflicts, es
 * "A git pull a day keeps the conflicts away." - [Alysson Alvaran](https://github.com/alyssonalvaran)
 ```
 
+6. Add and commit it to your local repository.
+
+```shell
+$ git add "today-i-learned/20180526.md"
+$ git commit -m "Add what I learned today"
+```
+
+7. Checkout the `master` branch and merge your changes from your `<your-name>` branch.
+
+```shell
+$ git merge <your-name>
+```
+
 * Merging branches
 
 * Deleting branches
