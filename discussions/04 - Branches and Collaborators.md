@@ -85,7 +85,7 @@ $ git commit -m "Add what I learned today"
 $ git merge <your-name>
 ```
 
-* Merging branches
+Merging branches
 
 * Deleting branches
 
