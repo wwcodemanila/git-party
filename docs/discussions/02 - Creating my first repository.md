@@ -4,7 +4,7 @@ A **Git repository** or *repo* is a virtual storage of your project. It allows y
 
 # Creating a repository
 
-1. Log in to your [GitHub](https://github.com/alyssonalvaran/git-party/tree/master/assets) account.
+1. Log in to your [GitHub](https://github.com) account.
 
 2. Click the **+** button on the upper right corner of the page and select `New repository`.
 
@@ -12,7 +12,7 @@ A **Git repository** or *repo* is a virtual storage of your project. It allows y
 
 4. Click `Create repository`.
 
-<img src="assets/repo-create.png" alt="repo-create" style="height: 200px"/>
+<img src="https://github.com/alyssonalvaran/git-party/blob/master/docs/assets/repo-create.png" alt="repo-create" style="height: 200px"/>
 
 *Mabuhay*! You now have a new repository named `my-first-repo` with a `README` markdown file.
 
