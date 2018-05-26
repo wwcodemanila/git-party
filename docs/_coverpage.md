@@ -1,6 +1,6 @@
 ![logo](_media/logo.png)
 
-# Python Study Group
+# Git Party!
 
 [Github](https://github.com/wwcodemanila/git-party)
 [Meetup](https://meetup.com/Women-Who-Code-Manila/)
