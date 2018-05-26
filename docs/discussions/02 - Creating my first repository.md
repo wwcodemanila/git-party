@@ -12,7 +12,9 @@ A **Git repository** or *repo* is a virtual storage of your project. It allows y
 
 4. Click `Create repository`.
 
-<img src="https://github.com/alyssonalvaran/git-party/blob/master/docs/assets/repo-create.png" alt="repo-create" style="height: 200px"/>
+![repo-create](https://github.com/alyssonalvaran/git-party/blob/master/docs/assets/repo-create.png)
+![repo-create](assets/repo-create.png)
+![repo-create](../assets/repo-create.png)
 
 *Mabuhay*! You now have a new repository named `my-first-repo` with a `README` markdown file.
 
