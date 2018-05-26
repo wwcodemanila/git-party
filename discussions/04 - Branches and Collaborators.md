@@ -1,10 +1,8 @@
 ## Collaborating with teams
 
-* Code review
-* Project management
-* Documentation
+Aside from contributing to other people's projects, Git is widely used as a collaboration tool between software development teams. It can be used to aid in project management, code reviews, documentation, among others.
 
-* Adding and removing collaborators on GitHub
+To get started on collaborating with your team, you should know how to create, merge, and delete branches.
 
 ## Branching
 
