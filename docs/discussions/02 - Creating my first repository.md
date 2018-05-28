@@ -12,13 +12,11 @@ A **Git repository** or *repo* is a virtual storage of your project. It allows y
 
 4. Click `Create repository`.
 
-![repo-create](https://github.com/alyssonalvaran/git-party/blob/master/docs/assets/repo-create.png)
-![repo-create](assets/repo-create.png)
 ![repo-create](../assets/repo-create.png)
 
 *Mabuhay*! You now have a new repository named `my-first-repo` with a `README` markdown file.
 
-<img src="../assets/repo-new.png" alt="repo-new" style="height: 200px"/>
+![repo-new](../assets/repo-new.png)
 
 # Cloning a repository
 
@@ -30,7 +28,7 @@ Now that you have a remote repository on GitHub, it's time to get a local copy o
 
 1. Go to the repo that you created on GitHub and click on the green `Clone or download` button.
 
-<img src="../assets/repo-clone.png" alt="repo-clone" style="height: 100px;"/>
+![repo-clone](../assets/repo-clone.png)
 
 2. Copy the HTTPS link by clicking the copy button or selecting the link and pressing `CTRL + C`.
 

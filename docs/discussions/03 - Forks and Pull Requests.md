@@ -55,15 +55,15 @@ If the project owner likes your work, they might pull your fix into the original
 
 1. From this repository, `git-party`, navigate to the upper right corner of the page and click the `Fork` button.
 
-<img src="../assets/fork-button.png" alt="fork-button" style="height: 25px"/>
+![fork-button](../assets/fork-button.png)
 
 2. Select where should the fork be located, which is in this case, your personal account.
 
-<img src="../assets/fork-location.png" alt="fork-location" style="height: 100px"/>
+![fork-location](../assets/fork-location.png)
 
 That's it! Now, you have a remote copy of the original `git-party` repository.
 
-<img src="../assets/forked-repo.png" alt="forked-repo" style="height: 200px"/>
+![forked-repo](../assets/forked-repo.png)
 
 Now clone the forked repo to create a local copy as well.
 
@@ -95,29 +95,29 @@ You have now pushed your changes to your fork!
 
 4. Navigate to the original `git-party` repository and click the `New pull request` button.
 
-<img src="../assets/pr-button.png" alt="pr-button" style="height: 25px"/>
+![pr-button](../assets/pr-button.png)
 
 5. Since we're trying to create a PR from another fork, click the link to `compare across forks`.
 
-<img src="../assets/pr-create.png" alt="pr-create" style="height: 100px"/>
+![pr-create](../assets/pr-create.png)
 
 6. Select the base fork as `wwcodemanila/git-party` and the its branch as `master`. Compare it against the head fork `<your-name>/git-party` with the same branch.
 
-<img src="../assets/pr.png" alt="pr" style="height: 100px"/>
+![pr](../assets/pr.png)
 
 This would show the changes that you made to your fork compared to the original repository:
 
-<img src="../assets/pr-changes.png" alt="pr-changes" style="height: 150px"/>
+![pr-changes](../assets/pr-changes.png)
 
 7. Submit your pull request!
 
-<img src="../assets/pr-created.png" alt="pr-created" style="height: 200px"/>
+![pr-created](../assets/pr-created.png)
 
 # Merging a pull request
 
 To merge a pull request with no conflicts with the base branch, just click on the `Merge pull request` button and `Confirm merge`.
 
-<img src="../assets/pr-merge.png" alt="pr-merge" style="height: 100px"/>
+![pr-merge](../assets/pr-merge.png)
 
 In case of conflicts, sync your fork first before resolving the conflicts and pushing your resolution.
 
