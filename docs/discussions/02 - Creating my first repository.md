@@ -139,10 +139,10 @@ $ git commit -m "Initial commit"
 4. Finally, push your commit to the remote repository using `git push <remote> <branch>`.
 
 ```shell
-git push origin master
+git push origin main
 ```
 
-`origin` is the default remote created by GitHub that corresponds to the URL of your repository while `master` is the default branch. You'll learn more about these in the next lessons.
+`origin` is the default remote created by GitHub that corresponds to the URL of your repository while `main` is the default branch. You'll learn more about these in the next lessons.
 
 # Congratulations!
 
