@@ -35,7 +35,7 @@ Other Git repo hosting tools:
 
 # Didn't quite Git it?
 
-Feel free to ask and participate in our [Gitter chat room](https://gitter.im/WWCodeManila/Git)!
+Feel free to join our [Discord server](https://bit.ly/wwcodemnl-discord-server-invite) and ask questions in our #git-party channel.
 
 # References
 
