@@ -83,12 +83,12 @@ $ git clone https://github.com/<your-name>/git-party.git
 * [Alysson Alvaran](https://github.com/alyssonalvaran) - I am mixed-handed or cross-dominant. I write with my left hand but I do everything else with my right! :)
 ```
 
-3. Push your changes to your `master` branch.
+3. Push your changes to your `main` branch.
 
 ```shell
 $ git add attendance/20180526.md
 $ git commit -m "Add my name to 20180526 attendance"
-$ git push origin master
+$ git push origin main
 ```
 
 You have now pushed your changes to your fork!
@@ -101,7 +101,7 @@ You have now pushed your changes to your fork!
 
 ![pr-create](../assets/pr-create.png)
 
-6. Select the base fork as `wwcodemanila/git-party` and the its branch as `master`. Compare it against the head fork `<your-name>/git-party` with the same branch.
+6. Select the base fork as `wwcodemanila/git-party` and the its branch as `main`. Compare it against the head fork `<your-name>/git-party` with the same branch.
 
 ![pr](../assets/pr.png)
 
@@ -131,7 +131,7 @@ You need to sync your forks first before pushing your changes and creating pull 
 $ git remote add upstream https://github.com/wwcodemanila/git-party
 ```
 
-When pushing your codes to your `master` branch, you'll notice that you also call on a remote named `origin`. To see the remotes that you have, use `git remote`. To see the URL that it references, use `git remote get-url <remote-name>`.
+When pushing your codes to your `main` branch, you'll notice that you also call on a remote named `origin`. To see the remotes that you have, use `git remote`. To see the URL that it references, use `git remote get-url <remote-name>`.
 
 2. Fetch the contents of your `upstream` remote.
 
@@ -139,16 +139,16 @@ When pushing your codes to your `master` branch, you'll notice that you also cal
 $ git fetch upstream
 ```
 
-3. Merge the `master` branch of `upstream` to your local fork.
+3. Merge the `main` branch of `upstream` to your local fork.
 
 ```shell
-$ git merge upstream/master
+$ git merge upstream/main
 ```
 
-Awesome! Your local fork is now up-to-date. You can also merge your remote fork by simply pushing the changes to its `master` branch.
+Awesome! Your local fork is now up-to-date. You can also merge your remote fork by simply pushing the changes to its `main` branch.
 
 ```shell
-$ git push origin master
+$ git push origin main
 ```
 
 # Congratulations!

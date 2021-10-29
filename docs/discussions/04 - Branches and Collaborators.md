@@ -22,7 +22,7 @@ $ cd <path-to-directory>
 $ git branch
 ```
 
-Right now, you only have the `master` branch.
+Right now, you only have the `main` branch.
 
 3. Check the all of the branches available on both your local and remote repositories.
 
@@ -33,23 +33,23 @@ $ git branch --all
 You should be able to see something like this:
 
 ```shell
-* master
-  remotes/origin/HEAD -> origin/master
+* main
+  remotes/origin/HEAD -> origin/main
   remotes/origin/christine
   remotes/origin/issa
   remotes/origin/alysson
 ```
 
-This indicates that you have 4 branches: `master`, `christine`, `issa` and `alysson`, on your remote named `origin`.
+This indicates that you have 4 branches: `main`, `christine`, `issa` and `alysson`, on your remote named `origin`.
 
 3. Create your own local branch and push it to your remote repository.
 
 ```shell
-$ git checkout -b <your-name> master
+$ git checkout -b <your-name> main
 $ git push origin <your-name>
 ```
 
-This switches you to a new branch called `<your-name>` on your local copy which contains what's exactly in `master`. You can verify it by using `git branch` again.
+This switches you to a new branch called `<your-name>` on your local copy which contains what's exactly in `main`. You can verify it by using `git branch` again.
 
 To switch back and forth between local branches, use `git checkout <branch-name>`.
 
@@ -78,16 +78,16 @@ $ git add "today-i-learned/20180526.md"
 $ git commit -m "Add what I learned today"
 ```
 
-7. Checkout the `master` branch and merge your changes from your `<your-name>` branch.
+7. Checkout the `main` branch and merge your changes from your `<your-name>` branch.
 
 ```shell
-$ git checkout master
+$ git checkout main
 $ git merge <your-name>
 ```
 
 Unlike pulling, merging gets the changes from the local branch that you've specified. This is helpful when you're working on a different branches locally.
 
-8. Now that you've merged the changes to your `master` branch, try deleting `<your-name>` locally.
+8. Now that you've merged the changes to your `main` branch, try deleting `<your-name>` locally.
 
 ```shell
 $ git branch -d <your-name>
